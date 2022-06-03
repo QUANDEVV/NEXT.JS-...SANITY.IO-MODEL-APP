@@ -27,15 +27,15 @@ src={urlFor(image && image[0])}
 width={150}
 className="product-image"
 />
-<p className='product-name'>{name}</p>
-<p className='product-price'>{price}</p>
+{/* <p className='product-name'>{name}</p> */}
+{/* <p className='product-price'>{price}</p> */}
 </div>
 </Link>
 
   <div className={style.likesContainer}>
     <AiOutlineHeart  className={style.heartIcon}/>
     <div className={style.likeCounter}>
-      { image?.stats?.favorites ?? 0}
+      { image?.stats?.favorites ?? "16.1k"}
 
     </div>
   

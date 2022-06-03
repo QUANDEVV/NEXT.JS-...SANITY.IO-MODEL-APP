@@ -9,7 +9,7 @@ const Home = ({ products, bannerData }) => (
 
    <div className='products-heading'>
      <h2>MODEL FANS</h2>
-     <p>Speakers of Many Variations</p>
+     <p>Your Daily Dose</p>
    </div>
 
    <div className='products-container'>
@@ -20,7 +20,7 @@ const Home = ({ products, bannerData }) => (
    />)}
    </div>
 
-   Footer
+   
 
    </div>
   )
